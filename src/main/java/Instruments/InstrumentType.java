@@ -14,7 +14,7 @@ public enum InstrumentType {
         this.type = type;
     }
 
-    public String getType() {
+    public String getPrettyType() {
         return type;
     }
 }

@@ -5,8 +5,8 @@ import ShopStuff.ISell;
 public class Piano extends Instrument implements IPlay, ISell {
     private String pianoType;
 
-    public Piano(String colour, String material, InstrumentType type, double buyPrice, double sellPrice, String pianoType) {
-        super(colour, material, type, buyPrice, sellPrice);
+    public Piano(String name, String colour, String material, InstrumentType type, double buyPrice, double sellPrice, String pianoType) {
+        super(name, colour, material, type, buyPrice, sellPrice);
         this.pianoType = pianoType;
     }
 
@@ -18,7 +18,7 @@ public class Piano extends Instrument implements IPlay, ISell {
         return "playing '" + song + "' on the piano";
     }
 
-    public double calculateMarkup(double buyPrice, double sellPrice) {
+    public double calculateMarkup() {
         return sellPrice - buyPrice;
     }
 }

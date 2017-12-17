@@ -14,9 +14,9 @@ public class InstrumentTest {
     
     @Before
     public void before() {
-        guitar = new Guitar("Brown", "Oak", InstrumentType.GUITAR, 90.00, 199.99, 6);
-        piano = new Piano("Black", "Ivory", InstrumentType.KEYBOARD, 350.00, 1499.99, "Upright");
-        trumpet = new Trumpet("Gold", "Brass", InstrumentType.BRASS, 50.00, 149.99, 3);
+        guitar = new Guitar("Guitar","Brown", "Oak", InstrumentType.GUITAR, 90.00, 199.99, 6);
+        piano = new Piano("Piano", "Black", "Ivory", InstrumentType.KEYBOARD, 350.00, 1499.99, "Upright");
+        trumpet = new Trumpet("Trumpet","Gold", "Brass", InstrumentType.BRASS, 50.00, 149.99, 3);
     }
     
     @Test
@@ -31,7 +31,7 @@ public class InstrumentTest {
 
     @Test
     public void hasType() {
-        assertEquals("Brass", trumpet.getType().getType());
+        assertEquals("Brass", trumpet.getType().getPrettyType());
     }
 
     @Test
@@ -73,6 +73,12 @@ public class InstrumentTest {
     public void trumpetCanPlay() {
         assertEquals("jazzing along to 'Two Shoes' to the trumpet", trumpet.play("Two Shoes"));
     }
+
+    @Test
+    public void instrumentHasDescription() {
+        assertEquals("Brown Oak Guitar", guitar.getDescription());
+    }
+
 
 
 

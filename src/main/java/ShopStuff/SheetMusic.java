@@ -5,7 +5,7 @@ public class SheetMusic extends Item implements ISell {
         super(buyPrice, sellPrice, description);
     }
 
-    public double calculateMarkup(double buyPrice, double sellPrice) {
+    public double calculateMarkup() {
         return sellPrice - buyPrice;
     }
 }
