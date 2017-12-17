@@ -31,12 +31,7 @@ public class Shop {
     public double totalMarkup() {
         double total = 0;
         for(ISell item : stock) {
-            if (item instanceof Instrument) {
-                total += item.calculateMarkup();
-            }
-            if (item instanceof Item) {
-                total += item.calculateMarkup();
-            }
+            total += item.calculateMarkup();
         }
         return total;
     }

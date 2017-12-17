@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="484d6f49-6401-4218-9fbe-ac477f7f9a9d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ShopStuff/Shop.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SellableTest.java" afterPath="$PROJECT_DIR$/src/test/java/SellableTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShopStuff/Shop.java" afterPath="$PROJECT_DIR$/src/main/java/ShopStuff/Shop.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -97,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SellableTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SellableTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SellableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
+            <state relative-caret-position="875">
               <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ShopStuff/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="395">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#156#157#0" expanded="true" />
@@ -509,8 +507,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" />
         <option value="$PROJECT_DIR$/src/main/java/ShopStuff/ISell.java" />
         <option value="$PROJECT_DIR$/src/main/java/ShopStuff/SheetMusic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ShopStuff/Shop.java" />
         <option value="$PROJECT_DIR$/src/test/java/SellableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ShopStuff/Shop.java" />
       </list>
     </option>
   </component>
@@ -612,7 +610,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SellableTest.canRemoveItem">
+  <component name="RunManager" selected="JUnit.SellableTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -803,10 +801,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SellableTest.canRemoveItem" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SellableTest.canCalculateTotalMarkup" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SellableTest.canCalculateMarkup" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SellableTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SellableTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SellableTest.canRemoveItem" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SellableTest.canCalculateTotalMarkup" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SellableTest.canCalculateMarkup" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.InstrumentTest.instrumentHasDescription" />
       </list>
     </recent_temporary>
@@ -828,12 +826,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InstrumentTest - 2017.12.17 at 19h 46m 42s.xml">
-      <configuration name="InstrumentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InstrumentTest_instrumentHasDescription - 2017.12.17 at 19h 41m 51s.xml">
-      <configuration name="InstrumentTest.instrumentHasDescription" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InstrumentTest_instrumentHasDescription - 2017.12.17 at 19h 47m 10s.xml">
       <configuration name="InstrumentTest.instrumentHasDescription" configurationId="JUnit" />
     </history-entry>
@@ -842,6 +834,12 @@
     </history-entry>
     <history-entry file="InstrumentTest_instrumentHasDescription - 2017.12.17 at 19h 47m 30s.xml">
       <configuration name="InstrumentTest.instrumentHasDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SellableTest - 2017.12.17 at 23h 50m 57s.xml">
+      <configuration name="SellableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SellableTest - 2017.12.17 at 23h 52m 08s.xml">
+      <configuration name="SellableTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SellableTest_canCalculateMarkup - 2017.12.17 at 19h 50m 17s.xml">
       <configuration name="SellableTest.canCalculateMarkup" configurationId="JUnit" />
@@ -880,7 +878,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -907,7 +905,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1027,14 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ShopStuff/ISell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InstrumentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
@@ -1076,10 +1066,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ShopStuff/ISell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SellableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ShopStuff/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="395">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#156#157#0" expanded="true" />
@@ -1090,20 +1102,6 @@
             <element signature="e#347#348#0" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />
             <element signature="e#554#555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SellableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
           </folding>
         </state>
       </provider>
