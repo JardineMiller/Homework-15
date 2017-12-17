@@ -1,6 +1,8 @@
 package Instruments;
 
-public class Trumpet extends Instrument implements IPlay {
+import ShopStuff.ISell;
+
+public class Trumpet extends Instrument implements IPlay, ISell {
     private int numOfValves;
 
     public Trumpet(String colour, String material, InstrumentType type, double buyPrice, double sellPrice, int numOfValves) {
@@ -14,5 +16,9 @@ public class Trumpet extends Instrument implements IPlay {
 
     public String play(String song) {
         return "jazzing along to '" + song + "' to the trumpet";
+    }
+
+    public double calculateMarkup(double buyPrice, double sellPrice) {
+        return sellPrice - buyPrice;
     }
 }
