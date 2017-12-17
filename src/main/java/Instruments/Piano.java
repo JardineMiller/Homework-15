@@ -13,6 +13,6 @@ public class Piano extends Instrument implements IPlay {
     }
 
     public String play(String song) {
-        return "Playing " + song + " on the piano";
+        return "playing '" + song + "' on the piano";
     }
 }

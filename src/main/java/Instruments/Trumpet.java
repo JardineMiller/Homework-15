@@ -13,6 +13,6 @@ public class Trumpet extends Instrument implements IPlay {
     }
 
     public String play(String song) {
-        return "Jazzing along to " + song;
+        return "jazzing along to '" + song + "' to the trumpet";
     }
 }

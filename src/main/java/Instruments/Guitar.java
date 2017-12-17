@@ -13,6 +13,6 @@ public class Guitar extends Instrument implements IPlay {
     }
 
     public String play(String song) {
-        return "Strumming away to " + song + " on the guitar!";
+        return "strumming away to '" + song + "' on the guitar!";
     }
 }

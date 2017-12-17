@@ -6,7 +6,7 @@ public enum InstrumentType {
     KEYBOARD("Keyboard"),
     STRINGS("Strings"),
     WOODWIND("Woodwind"),
-    BRASS("Bress");
+    BRASS("Brass");
 
     private final String type;
 
