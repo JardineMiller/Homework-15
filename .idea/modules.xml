@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RecordStore.iml" filepath="$PROJECT_DIR$/.idea/modules/RecordStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RecordStore_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RecordStore_main.iml" group="RecordStore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RecordStore_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RecordStore_test.iml" group="RecordStore" />
+    </modules>
+  </component>
+</project>
